@@ -1,0 +1,36 @@
+{
+     "data": {
+        "data_sign": "Indian",
+        "data_file": "Indian_10",
+        "patch_size": 13,
+        "batch_size": 65,
+        "num_classes": 16,
+        "pca": 200,
+        "dim_heads": 64,
+        "spectral_size": 200
+    },
+    "net": {
+        "trainer": "rwkvformer",
+        "depth": 4,
+        "dim": 64,
+        "mlp_dim": 8,
+        "heads": 24,
+        "kernal": 6,
+        "padding": 2,
+        "n_head": 4,
+        "ctx_len": 169,
+        "n_attn": 512,
+        "head_size": 12,
+        "n_embd": 128,
+        "n_embd1": 512,
+        "n_ffn": 64,
+        "rwkv_tiny_attn": 64,
+        "rwkv_tiny_head": 4
+    },
+    "train": {
+        "epochs": 40,
+        "lr": 0.001,
+        "weight_decay": 0
+    },
+    "uniq_name": "Indian_test"
+}
